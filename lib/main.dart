@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +21,10 @@ class MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/1.jpeg'),
               ),
-              Text('Mohamad J. Makki'),
+              Text(
+                'Mohamad J. Makki',
+                style: TextStyle(),
+              ),
             ],
           ),
         ),
