@@ -14,7 +14,14 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            children: [],
+            children: [
+              Container(
+                height: 100.0,
+                width: 100.0,
+                color: Colors.white,
+                child: Text("Card 1"),
+              ),
+            ],
           ),
         ),
       ),
