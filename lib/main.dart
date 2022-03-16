@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            verticalDirection: VerticalDirection.down,
             children: [
               Container(
                 height: 100.0,
