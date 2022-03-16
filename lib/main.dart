@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,6 +16,7 @@ class MyApp extends StatelessWidget {
           child: Container(
             height: 100.0,
             width: 100.0,
+            margin: ,
             color: Colors.white,
             child: Text("MJ Card"),
           ),
