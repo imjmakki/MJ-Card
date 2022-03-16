@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: ,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Container(
                 height: 100.0,
