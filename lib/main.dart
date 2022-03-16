@@ -23,7 +23,11 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'Mohamad J. Makki',
-                style: TextStyle(),
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
