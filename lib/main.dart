@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/1.jpeg'),
               ),
+              Text('Mohamad J. Makki'),
             ],
           ),
         ),
