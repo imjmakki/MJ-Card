@@ -34,6 +34,10 @@ class MyApp extends StatelessWidget {
                 color: Colors.amber,
                 child: Text("Card 3"),
               ),
+              Container(
+                height: 10.0,
+                width: double.infinity,
+              ),
             ],
           ),
         ),
