@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(),
+        body: widget(
+          child: Container(),
+        ),
       ),
     );
   }
