@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Source Sans Pro',
                   fontSize: 20.0,
                   color: Colors.teal.shade100,
-                  fontWeight: FontWeight.w200,
+                  letterSpacing: 2.5,
                 ),
               )
             ],
