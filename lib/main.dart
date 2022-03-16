@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,12 +24,21 @@ class MyApp extends StatelessWidget {
               Text(
                 'Mohamad J. Makki',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Pacifico',
                 ),
               ),
+              Text(
+                'Senior Java Developer',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 20.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w200,
+                ),
+              )
             ],
           ),
         ),
