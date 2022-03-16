@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(),
+          child: Column(
+            children: [],
+          ),
         ),
       ),
     );
