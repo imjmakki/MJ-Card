@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
             height: 100.0,
             width: 100.0,
             margin: EdgeInsets.only(left: 30.0),
+            padding: ,
             color: Colors.white,
             child: Text("MJ Card"),
           ),
