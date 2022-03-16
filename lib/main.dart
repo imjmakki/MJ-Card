@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,8 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: widget(
-          child: Container(),
+        body: SafeArea(
+          child: Container(
+            height: 100.0,
+            width: 100.0,
+            color: Colors.white,
+            child: Text("MJ Card"),
+          ),
         ),
       ),
     );
