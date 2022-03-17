@@ -49,6 +49,14 @@ class MyApp extends StatelessWidget {
                     Icons.phone,
                     color: Colors.tealAccent,
                   ),
+                  title: Text(
+                    '+964 - 7502078246',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
+                  ),
                 ),
               ),
               Card(
@@ -57,25 +65,19 @@ class MyApp extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      color: Colors.tealAccent,
-                      size: 100.0,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.tealAccent,
+                  ),
+                  title: Text(
+                    'mehmet.anbaki@gmail.com',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'mehmet.anbaki@gmail.com',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ],
