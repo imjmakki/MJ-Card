@@ -44,6 +44,7 @@ class MyApp extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.phone,
+                      color: Colors.tealAccent,
                       size: 100.0,
                     ),
                     SizedBox(
