@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
+                color: Colors.white,
                 child: Row(
                   children: [
                     Icon(
