@@ -38,42 +38,46 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 10.0,
-                  horizontal: 25.0,
-                ),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.tealAccent,
+              Center(
+                child: Card(
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0,
                   ),
-                  title: Text(
-                    '+964 - 7502078246',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: 'Source Sans Pro',
-                      fontSize: 20.0,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.tealAccent,
+                    ),
+                    title: Text(
+                      '+964 - 7502078246',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                      ),
                     ),
                   ),
                 ),
               ),
-              Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 10.0,
-                  horizontal: 25.0,
-                ),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.email,
-                    color: Colors.tealAccent,
+              Center(
+                child: Card(
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0,
                   ),
-                  title: Text(
-                    'mehmet.anbaki@gmail.com',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: 'Source Sans Pro',
-                      fontSize: 20.0,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.tealAccent,
+                    ),
+                    title: Text(
+                      'mehmet.anbaki@gmail.com',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                      ),
                     ),
                   ),
                 ),
