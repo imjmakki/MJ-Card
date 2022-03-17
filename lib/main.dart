@@ -41,7 +41,10 @@ class MyApp extends StatelessWidget {
               Container(
                 child: Row(
                   children: [
-                    Icon(Icons.add_shopping_cart),
+                    Icon(
+                      Icons.add_shopping_cart,
+                      size: 100.0,
+                    ),
                   ],
                 ),
               ),
