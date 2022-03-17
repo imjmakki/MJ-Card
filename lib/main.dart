@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
-                  horizontal: 10.0,
+                  horizontal: 2.5,
                 ),
                 child: Row(
                   children: [
