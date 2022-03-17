@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   children: [
                     Icon(
-                      Icons.add_shopping_cart,
+                      Icons.phone,
                       size: 100.0,
                     ),
                   ],
