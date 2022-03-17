@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                   horizontal: 25.0,
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(25.0),
                   child: Row(
                     children: [
                       Icon(
@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
                   horizontal: 25.0,
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(25.0),
                   child: Row(
                     children: [
                       Icon(
