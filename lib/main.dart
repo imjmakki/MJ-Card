@@ -45,7 +45,9 @@ class MyApp extends StatelessWidget {
                       Icons.phone,
                       size: 100.0,
                     ),
-                    SizedBox(),
+                    SizedBox(
+                      width: 10.0,
+                    ),
                     Text(
                       '+964-7502078246',
                       style: TextStyle(
