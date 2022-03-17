@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -47,7 +45,10 @@ class MyApp extends StatelessWidget {
                       Icons.phone,
                       size: 100.0,
                     ),
-                    Text('+964-7502078246'),
+                    Text(
+                      '+964-7502078246',
+                      style: TextStyle(),
+                    ),
                   ],
                 ),
               ),
