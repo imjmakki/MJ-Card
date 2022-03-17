@@ -13,76 +13,78 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
-            children: [
-              CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/1.jpeg'),
-              ),
-              Text(
-                'Mohamad J. Makki',
-                style: TextStyle(
-                  fontFamily: 'Pacifico',
-                  fontSize: 40.0,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
+          child: Center(
+            child: Column(
+              children: [
+                CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/1.jpeg'),
                 ),
-              ),
-              Text(
-                'Senior Java Developer',
-                style: TextStyle(
-                  fontFamily: 'Source Sans Pro',
-                  fontSize: 20.0,
-                  color: Colors.teal.shade100,
-                  letterSpacing: 2.5,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Center(
-                child: Card(
-                  margin: EdgeInsets.symmetric(
-                    vertical: 10.0,
-                    horizontal: 25.0,
+                Text(
+                  'Mohamad J. Makki',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
                   ),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.phone,
-                      color: Colors.tealAccent,
+                ),
+                Text(
+                  'Senior Java Developer',
+                  style: TextStyle(
+                    fontFamily: 'Source Sans Pro',
+                    fontSize: 20.0,
+                    color: Colors.teal.shade100,
+                    letterSpacing: 2.5,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Center(
+                  child: Card(
+                    margin: EdgeInsets.symmetric(
+                      vertical: 10.0,
+                      horizontal: 25.0,
                     ),
-                    title: Text(
-                      '+964 - 7502078246',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.phone,
+                        color: Colors.tealAccent,
+                      ),
+                      title: Text(
+                        '+964 - 7502078246',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'Source Sans Pro',
+                          fontSize: 20.0,
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-              Center(
-                child: Card(
-                  margin: EdgeInsets.symmetric(
-                    vertical: 10.0,
-                    horizontal: 25.0,
-                  ),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.email,
-                      color: Colors.tealAccent,
+                Center(
+                  child: Card(
+                    margin: EdgeInsets.symmetric(
+                      vertical: 10.0,
+                      horizontal: 25.0,
                     ),
-                    title: Text(
-                      'mehmet.anbaki@gmail.com',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        color: Colors.tealAccent,
+                      ),
+                      title: Text(
+                        'mehmet.anbaki@gmail.com',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'Source Sans Pro',
+                          fontSize: 20.0,
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
