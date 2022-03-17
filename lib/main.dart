@@ -44,6 +44,7 @@ class MyApp extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
+                padding: EdgeInsets.all(10.0),
                 child: Row(
                   children: [
                     Icon(
