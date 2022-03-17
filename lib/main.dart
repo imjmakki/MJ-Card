@@ -61,6 +61,7 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(
                 height: 20.0,
+                width: 250.0,
                 child: Divider(
                   color: Colors.teal.shade100,
                 ),
