@@ -40,6 +40,7 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 color: Colors.white,
+                margin: EdgeInsets.symmetric(),
                 child: Row(
                   children: [
                     Icon(
