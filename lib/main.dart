@@ -40,7 +40,9 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(),
+              Container(
+                child: Row(),
+              ),
             ],
           ),
         ),
