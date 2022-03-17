@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            children: <Widget>[
+            children: [
               CircleAvatar(
                 radius: 50.0,
                 backgroundImage: AssetImage('images/1.jpeg'),
@@ -39,7 +39,9 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                child: Row(),
+                child: Row(
+                  children: [],
+                ),
               ),
             ],
           ),
